@@ -1,0 +1,29 @@
+[{
+    "password": "somepass",
+    "email": "whitaker.mj@gmail.com",
+    "name": "Mike",
+    "id": 0,
+    "childeren": [{
+        "id": 1,
+        "name": "Jake",
+        "age": 7
+    }, {
+        "id": 2,
+        "name": "Zoe",
+        "age": 7
+    }]
+}, {
+    "password": "aPassword",
+    "email": "Kees.Kasper@outlook.com",
+    "name": "Kees",
+    "id": 1,
+    "childeren": [{
+        "id": 3,
+        "name": "Noam",
+        "age": 12
+    }, {
+        "id": 4,
+        "name": "Luka",
+        "age": 14
+    }]
+}]
