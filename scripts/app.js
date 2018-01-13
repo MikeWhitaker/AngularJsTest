@@ -27,7 +27,11 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
-        })
+      })
+      .when('/FamilyData', {
+        templateUrl: 'views/FamilyData.html',
+        controller: 'FamilyData'
+      })
       .otherwise({
         redirectTo: '/'
       });
