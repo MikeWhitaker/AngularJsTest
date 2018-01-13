@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the childListApp
  */
-angular.module('MyFirstWebApp')
+angular.module('childListApp')
   .controller('MainCtrl', function () {
       this.awesomeThings = [
           'HTML5 Boilerplate',

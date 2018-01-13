@@ -41,9 +41,10 @@
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/about">About</a></li>
-              <li><a ng-href="#/">Contact</a></li>
+              <li class="active"><a href="#!/">Home</a></li>
+              <li><a ng-href="#!/about">About</a></li>
+              <li><a ng-href="#!/">Contact</a></li>
+              <li><a ng-href="#!/MyFirstController">MyFirstController</a></li>
             </ul>
           </div>
         </div>
@@ -51,7 +52,7 @@
     </div>
 
     <div class="container">
-    <div ng-view="MainCtrl"></div>
+    <div ng-view></div>
     </div>
 
     <div class="footer">
@@ -75,18 +76,8 @@
     <script src="bower_components/lodash/dist/lodash.compat.js"></script>
     <script src="bower_components/angular-google-chart/ng-google-chart.js"></script>
     <script src="scripts/app.js"></script>
-    <script src="scripts/services/watchlist-service.js"></script>
-    <script src="scripts/directives/stk-watchlist-panel.js"></script>
-    <script src="scripts/controllers/dashboard.js"></script>
-    <script src="scripts/controllers/watchlist.js"></script>
     <script src="scripts/controllers/main.js"></script>
-    <script src="scripts/services/companyservice.js"></script>
-    <script src="scripts/services/quote-service.js"></script>
-    <script src="scripts/directives/stk-stock-table.js"></script>
-    <script src="scripts/directives/stk-stock-row.js"></script>
-    <script src="scripts/directives/contenteditable.js"></script>
-    <script src="scripts/directives/stk-sign-color.js"></script>
-    <script src="scripts/directives/stk-sign-fade.js"></script>
+    <script src="scripts/controllers/MyFirstController.js"></script>
 
 </body>
 </html>
