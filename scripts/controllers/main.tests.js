@@ -7,7 +7,7 @@ describe('MainCtrl ->', function () {
     
 
 
-    beforeEach(module("eventsApp"));
+    //beforeEach(module("childListApp"));
     
     beforeEach(inject(function ($controller,$rootScope) {
         $controllerConstructor = $controller;
