@@ -1,6 +1,15 @@
-<div>
-  <h1>This is my first controller page.</h1>
-  <p>I will be doing some easy Angular substutions here: 2 + 2 = {{2 + 2}}</p>
+<div class="panel panel-primary" ng-controller="MyFirstController as vm">
+  <div class="panel-heading">List
+  </div>
+  <div class="panel-body">
+    <div class="row" ng-repeat="item in vm.listFamily">
+      <div class="col-md-6">
+        <h3>Color: {{item.color}}</h3>
+      </div>
+      <div class="col-md-6">
+        <h3>Hex: {{item.value}}</h3>
+      </div>
+    </div>
+  </div>
 </div>
-
 
