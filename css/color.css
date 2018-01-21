@@ -1,27 +1,34 @@
 .red {
+	transition: background-color 1s ease;
 	background-color: red;
 }
 
 .green {
+	transition: background-color 1s ease;
 	background-color: green;
 }
 
 .blue {
+	transition: background-color 1s ease;
 	background-color: blue;
 }
 
 .cyan {
+	transition: background-color 1s ease;
 	background-color: cyan;
 }
 
 .magenta {
+	transition: background-color 1s ease;
 	background-color: magenta;
 }
 
 .yellow {
+	transition: background-color 1s ease;
 	background-color: yellow;
 }
 
 .black {
+	transition: background-color 1s ease;
 	background-color: black;
 }
