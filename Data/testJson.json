@@ -1,30 +1,37 @@
 [
 	{
 		"color": "red",
-		"value": "#f00"
+		"value": "#f00",
+		"cssClass": "red"
 	},
 	{
 		"color": "green",
-		"value": "#0f0"
+		"value": "#0f0",
+		"cssClass": "green"
 	},
 	{
 		"color": "blue",
-		"value": "#00f"
+		"value": "#00f",
+		"cssClass": "blue"
 	},
 	{
 		"color": "cyan",
-		"value": "#0ff"
+		"value": "#0ff",
+		"cssClass": "cyan"
 	},
 	{
 		"color": "magenta",
-		"value": "#f0f"
+		"value": "#f0f",
+		"cssClass": "magenta"
 	},
 	{
 		"color": "yellow",
-		"value": "#ff0"
+		"value": "#ff0",
+		"cssClass": "yellow"
 	},
 	{
 		"color": "black",
-		"value": "#000"
+		"value": "#000",
+		"cssClass": "black"
 	}
 ]
